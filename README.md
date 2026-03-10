@@ -1,16 +1,6 @@
 # TEM Tools
 
-Minimal GitHub release of two TEM analysis GUIs for small-group sharing:
 
-- `TEM_Tools/saed_indexer.py`
-- `TEM_Tools/hrtem_analyser.py`
-
-This release was simplified for easier reuse:
-
-- only the two main GUI files are kept
-- each file contains its own minimal hyperspy/`rosettasciio` loader
-- data import uses a single full file path input
-- SVG export and SVG-based session restore are preserved
 
 ## Features
 
