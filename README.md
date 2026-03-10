@@ -57,23 +57,3 @@ pip install -r requirements.txt
 python TEM_Tools/saed_indexer.py
 python TEM_Tools/hrtem_analyser.py
 ```
-
-## Suggested checks before publishing
-
-- confirm both GUIs start correctly
-- open at least one `dm4` or `emd` file in each tool
-- export an SVG from each tool
-- reopen the exported SVG to verify metadata restore
-- make sure no raw experimental data is included in the repository
-
-## Publish to GitHub
-
-```bash
-cd "/Users/junyan/Library/CloudStorage/OneDrive-个人/python/tem_tools_github"
-git init
-git add .
-git commit -m "Initial release of TEM tools"
-git branch -M main
-git remote add origin https://github.com/<your-name>/tem-tools.git
-git push -u origin main
-```
